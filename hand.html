@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hand</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/handgame.css" type="text/css"></link>
+    <script type="text/javascript" src="js/Main.js"></script>
+    <script type="text/javascript" src="js/loadImg/loadImg.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/YOOP.js"></script>
+    
+    <!-- 图片管理类和工厂方法 -->
+    <script type="text/javascript" src="js/Factory/imgFactory.js"></script>
+    <script type="text/javascript" src="js/imgManage/imgManage.js"></script>
+  	
+  	<!-- Layer层和集合类 -->
+    <script type="text/javascript" src="js/compoent/Collection.js"></script>
+    <script type="text/javascript" src="js/compoent/Layer.js"></script>
+  	<!-- 事件模型 -->
+    <script type="text/javascript" src="js/keyEvent/keyEvent.js"></script>
+    <!-- layer管理类 -->
+    <script type="text/javascript" src="js/compoent/Map.js"></script>
+    <script type="text/javascript" src="js/compoent/LayerManage.js"></script>
+    <script type="text/javascript" src="js/Factory/LayerFactory.js"></script>
+    <script type="text/javascript" src="js/compoent/Sprite.js"></script>
+    <!-- 三层Layer -->
+    <script type="text/javascript" src="js/Layer/MapLayer.js"></script>
+    <script type="text/javascript" src="js/Layer/ballLayer.js"></script>
+    <script type="text/javascript" src="js/sprite/paleSprite.js"></script>
+    <script type="text/javascript" src="js/Layer/paleLayer.js"></script>
+	<script type="text/javascript" src="js/sprite/ballSprite.js"></script>
+	
+  	<script type="text/javascript" src="js/Factory/spriteFactory.js"></script>
+    
+    <script type="text/javascript" src="js/Game.js"></script>
+  </head>
+  <body>
+	<canvas id = "mapLayer"></canvas>
+	<canvas id = "ballLayer"></canvas>
+	<canvas id = "paleLayer"></canvas>
+	<script>
+		Main.init();
+	</script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+GameConfig = {
+	FPS:30,
+	T:800,
+	img:{
+		path:"img/"
+	},
+	canvas:{
+		mapLayer:{
+			width:400,
+			height:600
+		},
+		ballLayer:{
+			width:400,
+			height:600
+		},
+		paleLayer:{
+			width:400,
+			height:600
+		}
+	},
+};
